@@ -10,8 +10,10 @@ int main (){
 	soma = 0;
 		
 	for (i = 1; i <= n/2; i++){
-		if (n%i == 0);
+		
+		if (n%i == 0){
 		soma += i;
+		}
 	}
 	
 	if (soma == n){
